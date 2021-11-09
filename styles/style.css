@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,body{
+  background-image: url('file:///C:/Users/HP/OneDrive/Desktop/web%20development/practice/Login-form/hactober.png');
+  background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+  height: 100%;
+  align-content: center;
+
+}
+.card{
+  height: 370px;
+  width: 350px;
+  margin-top: 100px;
+margin-bottom: auto;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.log-in{
+  color: white;
+}
+.remember{
+  color:white;
+  margin-left: 20px;
+}
+.links{
+  color: white;
+}
+.social_icon span{
+  margin-left: 10px;
+  font-size: 40px;
+  color: #E02401;
+}
+.social_icon span:hover{
+  color: grey;
+}
+.input-group-prepend span{
+
+background-color: #E02401;
+color: black;
+}
+.social_icon{
+position: absolute;
+right: 20px;
+top: -35px;
+}
+.login_btn{
+color: black;
+background-color: #E02401;
+width: 100px;
+}
+.login_btn:hover{
+  color: black;
+  background-color: #D9CAB3;
+}
